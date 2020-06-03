@@ -1,5 +1,5 @@
-<h3 class="text-xl font-bold ml-8 mt-4">Who to follow</h3>
-        <ul class="mt-4 ml-8 ">
+<h3 class="text-xl font-bold ml-4 mt-4">Who to follow</h3>
+        <ul class="mt-4 ml-4 ">
        @foreach($users as $user)
        
             <li class="flex flex-row w-full">

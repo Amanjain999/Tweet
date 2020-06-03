@@ -1,5 +1,7 @@
- <ul class="text-xl flex flex-col ">
-            <li class="flex  hover:bg-blue-100 hover:border rounded-full    ">
+ <div class="  mt-12 lg:fixed ">
+    <div class="">
+ <ul class="text-xl flex flex-col  ">
+            <li class="flex  hover:bg-blue-100 hover:border rounded-full hover:mt-4    ">
                 <div >
                 <svg width="50" height="30" viewBox="0 0 24 24" class="text-white r-13gxpu9 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr"><g><path d="M22.58 7.35L12.475 1.897c-.297-.16-.654-.16-.95 0L1.425 7.35c-.486.264-.667.87-.405 1.356.18.335.525.525.88.525.16 0 .324-.038.475-.12l.734-.396 1.59 11.25c.216 1.214 1.31 2.062 2.66 2.062h9.282c1.35 0 2.444-.848 2.662-2.088l1.588-11.225.737.398c.485.263 1.092.082 1.354-.404.263-.486.08-1.093-.404-1.355zM12 15.435c-1.795 0-3.25-1.455-3.25-3.25s1.455-3.25 3.25-3.25 3.25 1.455 3.25 3.25-1.455 3.25-3.25 3.25z"></path></g></svg></div>
                 <a href="/home" class="font-bold block mb-6">Home</a>
@@ -27,11 +29,17 @@
                 </div> 
                 <a href="" class="font-bold block mb-6">Bookmark</a>
             </li>
-            <li class="flex hover:bg-blue-100 hover:border rounded-full">
+            <li class="flex hover:bg-blue-100 hover:border rounded-full ">
                 <div>
                     <svg width="50" height="30" viewBox="0 0 24 24" class="r-13gxpu9 r-4qtqp9 r-yyyyoo r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr"><g><path d="M19.75 2H4.25C3.013 2 2 3.013 2 4.25v15.5C2 20.987 3.013 22 4.25 22h15.5c1.237 0 2.25-1.013 2.25-2.25V4.25C22 3.013 20.987 2 19.75 2zM11 16.75H7c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h4c.414 0 .75.336.75.75s-.336.75-.75.75zm6-4H7c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h10c.414 0 .75.336.75.75s-.336.75-.75.75zm0-4H7c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h10c.414 0 .75.336.75.75s-.336.75-.75.75z"></path></g></svg>
                 </div>
                 <a href="" class="font-bold block mb-6">List</a>
             </li>
         </ul>
-        <button type="submit" class="bg-blue-500 rounded-full px-16 py-4 shadow">Tweet</button>
+        <button type="submit" class="bg-blue-500 rounded-full px-16 py-4 shadow text-white font-bold  ">Tweet</button>
+    </div>
+      @include('tweet.logout')  
+</div>
+
+
+       

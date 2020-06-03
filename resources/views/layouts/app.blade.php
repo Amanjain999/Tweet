@@ -18,19 +18,27 @@
     <a href="https://icons8.com/icon/5MQ0gPAYYx7a/twitter"></a>
     <!-- Styles -->
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+    <!----------------------------------------Jquery ------------->
+    <script 
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
+    </script> 
 </head>
 <body>
     <div id="app">
-        
-        <section class="mb-6 px-8 py-4  ">
-            <img src="https://img.icons8.com/fluent/48/000000/twitter.png"/>
-           
+       
+        <section class="mb-2 px-8 py-3 ">
+            <img src="https://img.icons8.com/fluent/48/000000/twitter.png" class="fixed" />
         </section>
+  
         <section class="px-8">
-        <main class="container mx-auto">
+        <main class="">
             @yield('content')
         </main>
     </section>
+    <section>
+    @yield('nav')
+    </section>
+   
     </div>
 </body>
 </html>
